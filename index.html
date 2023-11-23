@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="hidden mobile-image">
+      <img src="images/hero-mobile.jpg" alt="">
+    </div>
+    <div class="row">
+      <div class="col-7 left-col">
+        <div>
+          <div class="logo">
+            <img src="images/logo.svg" alt="logo">
+          </div>
+          <div class="content-container">
+            <div class="title mb-3">
+              <h1><span class="pink">We're</span> coming soon</h1>
+            </div>
+            <div class="text-content mb-5">
+              <p class="pink">Hello fellow shoppers! We're currently building our new fashion store.
+                Add your email below to stay up-to-date with announcements and our launch deals.
+              </p>
+            </div>
+            <div class="email">
+              <form action="#" method="post">
+                <div class="form-group d-flex align-items-center">
+                  <input type="email" class="form-control email" name="email" id="email" placeholder="Email Address">
+                  <img class="error-icon" src="images/icon-error.svg" alt="">
+                  <img class="button" src="images/icon-arrow.svg" alt="button">
+                </div>
+                <div class="error-message">
+                  <p>please provide a valid email</p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 right-col">
+        <img src="images/hero-desktop.jpg" alt="" class="right-image">
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
